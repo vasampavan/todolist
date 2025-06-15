@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(18, 21, 22);
+}
+button{
+    background-color: rgb(38, 43, 38);
+ transition: background-color 0.3s ease, transform 0.5s ease;
+ 
+}
+button:hover{
+    background-color: rgb(2, 3, 3);
+    transform: scale(1.05);
+    border-color: #007BFF;
+}
+input{
+      width: 300px;
+      padding: 12px 16px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+      outline: none;
+}
+input:hover {
+      border-color: #888;
+}
+
+input:focus {
+      border-color: #007BFF;
+      box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+    }
+
+ h3 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #f8f8f8;
+      margin: 20px 0;
+      transition: color 0.3s ease, transform 0.3s ease;
+      cursor: default;
+    }
+
+    h3:hover {
+      color: #007BFF;
+      transform: translateY(-2px);
+    }
+.todo{
+    background-color: #f9f8f8;
+      
+      margin-bottom: 10px;
+      padding: 12px 16px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      cursor: pointer;
+      color: rgb(0, 0, 0);
+}
+.todo:hover {
+      background-color: #007BFF;
+      color: white;
+      transform: translateX(5px);
+    }
